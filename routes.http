@@ -1,2 +1,7 @@
-# @name Hi
-GET http://localhost:3333
+# @name get-prompt
+GET http://localhost:3333/prompts
+
+###
+
+# @name get-video
+GET http://localhost:3333/videos
