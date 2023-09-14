@@ -23,3 +23,15 @@ Content-Type: application/json
 {
   "prompt": "meme brasil, meme"
 }
+
+###
+
+# @name generate-ai-completion
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+  "videoId": "b669968f-8ce4-4eac-ac5c-4e5e506cf38e",
+  "temperature": 0.5,
+  "template": "Gere um resumo sucionto da transcrição do vídeo informada a seguir: ''{transcription}''"
+}
